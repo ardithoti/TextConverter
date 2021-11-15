@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  width: 100%;
+  background-color: cornsilk;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.appwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#textarea {
+  resize: none;
+  font-size: 16px;
+  width: 80%;
+  height: 400px;
+}
+
+.buttons {
+  padding: 9px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+}
+
+#uppercasebtn {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#uppercasebtn:hover {
+  background-color: rgb(40, 40, 250);
+}
+
+#lowercasebtn {
+  background-color: rgb(72, 181, 9);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#lowercasebtn:hover {
+  background-color: rgb(136, 255, 0);
+}
+
+#clearbtn {
+  background-color: crimson;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#clearbtn:hover {
+  background-color: red(136, 255, 0);
+}
